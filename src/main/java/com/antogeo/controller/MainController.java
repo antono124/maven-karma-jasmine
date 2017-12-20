@@ -10,7 +10,7 @@ public class MainController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home(ModelMap model) {
-        model.addAttribute("message", "Hello from Home Controller");
+        model.addAttribute("message", "Hello from Main Controller");
         return "home";
     }
 
